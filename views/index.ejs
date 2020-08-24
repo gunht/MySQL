@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách todo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="outer-main">
+        <header>
+            <div class="start">
+                <img src="img/icon/icon-4.png" alt="icon">
+                <img src="img/icon/icon-youtube.png" alt="icon">
+            </div>
+            <div class="center">
+                <form action="/search-video" method="POST">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <button type="submit">
+                        <img src="img/icon/icon-1.png" alt="icon search">
+                    </button>
+                </form>
+                <span class="keyboard"></span>
+            </div>
+            <div class="end">
+                <img src="img/icon/icon-2.png" alt="icon">
+                <img src="img/icon/icon-3.png" alt="icon">
+                <img src="img/icon/icon-6.png" alt="icon">
+                <div class="avatar"></div>
+            </div>
+        </header>
+
+        <div class="side-bar">
+            <ul>
+                <li class="active">
+                    <span class="img">
+                        <img src="img/icon/icon-side-01.png" alt="icon">
+                    </span>
+                    <span class="text">Trang chủ</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-02.png" alt="icon">
+                    </span>
+                    <span class="text">Thịnh hành</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-03.png" alt="icon">
+                    </span>
+                    <span class="text">Kênh đăng ký</span>
+                </li>
+                <hr class="space-side-bar">
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-04.png" alt="icon">
+                    </span>
+                    <span class="text">Thư viện</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-05.png" alt="icon">
+                    </span>
+                    <span class="text">Lịch sử</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-06.png" alt="icon">
+                    </span>
+                    <span class="text">Video của bạn</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-07.png" alt="icon">
+                    </span>
+                    <span class="text">Xem sau</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-08.png" alt="icon">
+                    </span>
+                    <span class="text">Video đã thích</span>
+                </li>
+                <hr class="space-side-bar">
+                <h6>KÊNH ĐĂNG KÝ</h6>
+                <li>
+                    <span class="imgsub">
+                        <img src="https://yt3.ggpht.com/a/AATXAJxbbP4RSE461fDoGa16zmITV2xc8xoqGmQ6tQ=s88-c-k-c0xffffffff-no-rj-mo" alt="icon">
+                    </span>
+                    <span class="text">TheEllenShow</span>
+                </li>
+                <li>
+                    <span class="imgsub">
+                        <img src="https://yt3.ggpht.com/a/AATXAJz1yNNjLQGgBzQXAAPad5UKPJ1aNyhqFKpvlg=s88-c-k-c0xffffffff-no-rj-mo" alt="icon">
+                    </span>
+                    <span class="text">VTV24</span>
+                </li>
+                <li>
+                    <span class="imgsub">
+                        <img src="https://yt3.ggpht.com/a/AATXAJyv5XCIO2j4e-lhlJaliv8gMSJqI2kW_Gteeg=s88-c-k-c0xffffffff-no-rj-mo" alt="icon">
+                    </span>
+                    <span class="text">Phạm Huy Hoàng</span>
+                </li>
+                <li>
+                    <span class="imgsub">
+                        <img src="https://yt3.ggpht.com/a/AATXAJzJQ28VJPdIgqPygfUT7IvoMexr49HgoaCAjw=s88-c-k-c0xffffffff-no-rj-mo" alt="icon">
+                    </span>
+                    <span class="text">Phê Phim</span>
+                </li>
+                <li>
+                    <span class="imgsub">
+                        <img src="https://yt3.ggpht.com/a/AATXAJyS9nvLRL3ABhDqZ1EjNf_Rc0-WrmLqwXbi4Q=s88-c-k-c0xffffffff-no-rj-mo" alt="icon">
+                    </span>
+                    <span class="text">NoobFromUA</span>
+                </li>
+                <hr class="space-side-bar">
+                <h6>DỊCH VỤ KHÁC CỦA YOUTUBE</h6>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-08.png" alt="icon">
+                    </span>
+                    <span class="text">Trò chơi</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-08.png" alt="icon">
+                    </span>
+                    <span class="text">Sự kiện trực tiếp</span>
+                </li>
+                <hr class="space-side-bar">
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-08.png" alt="icon">
+                    </span>
+                    <span class="text">Cài đặt</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-08.png" alt="icon">
+                    </span>
+                    <span class="text">Lịch sử báo cáo</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-08.png" alt="icon">
+                    </span>
+                    <span class="text">Trợ giúp</span>
+                </li>
+                <li>
+                    <span class="img">
+                        <img src="img/icon/icon-side-08.png" alt="icon">
+                    </span>
+                    <span class="text">Gửi phản hồi</span>
+                </li>
+                <hr class="space-side-bar">
+                <div class="footer-side-bar">
+                    <span>Giới thiệu</span>
+                    <span>Báo chí</span>
+                    <span>Bản quyền</span>
+                    <span>Liên hệ với chúng tôi</span>
+                    <span>Người sáng tạo</span>
+                    <span>Quảng cáo</span>
+                    <br><br>
+                    <span>Điều khoản</span>
+                    <span>Quyền riêng tư</span>
+                    <span>Chính sách và an toàn</span>
+                    <span>Thử các tính năng mới</span>
+                    <br><br>
+                    <span style="padding-bottom: 15px; font-size: 14px;"> &copy; 2020 Google LLC</span>
+                </div>
+            </ul>
+        </div>
+        <section>
+            <div class="main-content">
+                <div class="section-offer">
+                    <h1>Đề xuất</h1>
+                    <form action="/add-video" method="POST">
+                        <input type="text" name="link">
+                        <input type="text" name="img">
+                        <input type="text" name="title">
+                        <input type="text" name="channel">
+                        <input type="text" name="view">
+                        <button type="submit">Tạo Video</button>
+                    </form>
+                    <form action="/fix-video" method="POST">
+                        <input type="text" name="title" placeholder="Tên cũ">
+                        <input type="text" name="fixTitle" placeholder="Tên mới">
+                        <button type="submit">Sửa Title Video</button>
+                    </form>
+                    <form action="/del-video" method="POST">
+                        <input type="text" name="title" placeholder="Tên video">
+                        <input type="text" name="channel" placeholder="Tên kênh">
+                        <button type="submit">Xoá Video</button>
+                    </form>
+                    <div class="row coofer">
+                        <% for (let i = 0; i < results.length; i++) { %>
+                            <div class="col-md-3">
+                                <iframe width="560" height="315" src="<%= results[i].link %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="content">
+                                    <div class="icon-avatar">
+                                        <img src="<%= results[i].img %>" alt="avatar">
+                                    </div>
+                                    <div class="text">
+                                        <h2>
+                                            <%= results[i].title %>
+                                        </h2>
+                                        <span class="verified"><%= results[i].channel %></span><br>
+                                        <span><%= results[i].view %></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <% } %>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
